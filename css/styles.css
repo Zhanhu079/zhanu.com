@@ -154,3 +154,34 @@ hr {
   font-weight: normal;
   padding: 20px 0;
 }
+
+@media screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .programmer {
+    font-size: 2rem;
+  }
+
+
+  .mountain {
+    width: 100vw;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 30px;
+    top: 90px;
+    width: 95px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 30px;
+    bottom: 200px;
+    width: 85px;
+  }
+  
+}
